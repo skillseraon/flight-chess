@@ -1,0 +1,5 @@
+
+// this is the error which occured trying to run this;  next time ff10 with better sources
+
+when entering the airport code in the above text, this error occurs. how to fix this? Enter the airport code: mia Traceback (most recent call last):   File "/workspaces/flight-chess/flight-departures.py", line 27, in <module>     departures = get_flight_departures(airport_code)   File "/workspaces/flight-chess/flight-departures.py", line 11, in get_flight_departures     flights = flights_table.find_all('tr')[1:]  # Skip the header row AttributeError: 'NoneType' object has no attribute 'find_all' https://www.perplexity.ai/search/8acfc183-01cc-4005-9e37-5c5547d5e64f?s=u
+
